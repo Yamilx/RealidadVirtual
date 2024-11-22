@@ -1,6 +1,6 @@
 # Aplicación Móvil de Realidad Virtual
 
-![Vista previa del proyecto](https://github.com/Yamilx/RealidadVirtual/blob/c82f94184e5fa8ac0bd5bee0f8c232e60facacdb/1.png)
+![Vista previa del proyecto](https://github.com/Yamilx/RealidadVirtual/blob/b3d46f95cd2ee02cee29f39b004b60b2998a2dc0/imagen.jpeg)
 
 ## Descripción
 Este proyecto consiste en el desarrollo de una aplicación móvil que integra tecnologías de realidad virtual (VR) para ofrecer una experiencia inmersiva y emocionante. Utilizando gafas de realidad virtual en las que se coloca el teléfono móvil, los usuarios podrán adentrarse en un entorno virtual interactivo diseñado con **Unity**, una de las herramientas más avanzadas para el desarrollo de aplicaciones 3D y VR.
