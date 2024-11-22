@@ -71,7 +71,7 @@ Para realizar y ejecutar este proyecto es necesario cumplir con los siguientes r
    - Asigna un nombre significativo al proyecto, como:  
      ```RealidadVirtual```
 
-   ![Preparacion del proyecto](Fotos%20y%20Videos/2.png)
+   ![Preparacion del proyecto](https://github.com/Yamilx/RealidadVirtual/blob/500668a6bf27dac726a6b8615393177a5138b0bc/2.png)
 
 
 2. **Configurar la carpeta de trabajo**:  
@@ -91,19 +91,19 @@ Para realizar y ejecutar este proyecto es necesario cumplir con los siguientes r
 
                https://github.com/googlevr/cardboard-xr-plugin.git      
 
-   ![extension descargada](Fotos%20y%20Videos/3.png)
+   ![extension descargada](https://github.com/Yamilx/RealidadVirtual/blob/500668a6bf27dac726a6b8615393177a5138b0bc/3.png)
    - Importamos los SAMPLES para tener escenas listas para usar.
 
 5. **Configuramos el project Settings**:
-![extension cardboard](Fotos%20y%20Videos/8.png)
+![extension cardboard](https://github.com/Yamilx/RealidadVirtual/blob/500668a6bf27dac726a6b8615393177a5138b0bc/8.png)
       - Activamos el Cardboard XR plugin para que unity entienda que estamos usando cardboard y no otra plataforma.
 
 6. **Agregamos la escena en Build Settings**: 
-![agregamos la escena](Fotos%20y%20Videos/4.png)
+![agregamos la escena](https://github.com/Yamilx/RealidadVirtual/blob/500668a6bf27dac726a6b8615393177a5138b0bc/4.png)
       - Dandole clic en  Add Open Scenes agregaremos la escena actuak.
 
 7. **Configuracion de project Settings Player**: 
-![nombre del producto](Fotos%20y%20Videos/5.png)
+![nombre del producto](https://github.com/Yamilx/RealidadVirtual/blob/500668a6bf27dac726a6b8615393177a5138b0bc/5.png)
       - Lo primero que debemos hacer es colocarle un nombre a nuestro producto.
       - Configuramos nuestros graphics APIs a OpenGLES3.
 
@@ -114,14 +114,14 @@ Para realizar y ejecutar este proyecto es necesario cumplir con los siguientes r
                implementation 'com.google.android.gms:play-services-vision:20.1.3'
                implementation 'com.google.android.material:material:1.12.0'
                implementation 'com.google.protobuf:protobuf-javalite:3.19.4'
-   ![modificacion del codigo](Fotos%20y%20Videos/10.png)
+   ![modificacion del codigo](https://github.com/Yamilx/RealidadVirtual/blob/500668a6bf27dac726a6b8615393177a5138b0bc/10.png)
 
 9. **Modificamos el archivo gradle Template**:
       - Localizamos la carpeta "gradle Template" que se encuentra en Assets/plugins/Android y agregamos las siguientes lineas de codigo.
 
                  android.enableJetifier=true
                  android.useAndroidX=true
-   ![modificacion del codigo](Fotos%20y%20Videos/9.png)
+   ![modificacion del codigo](https://github.com/Yamilx/RealidadVirtual/blob/500668a6bf27dac726a6b8615393177a5138b0bc/9.png)
 
 10. **Guardar y preparar para el desarrollo**:  
       - Asegúrate de guardar el proyecto con `Ctrl + S` y verifica que todo esté funcionando correctamente.
